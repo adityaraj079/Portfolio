@@ -18,7 +18,7 @@ def projects():
 def contactme():
     return render_template('contactme.html')
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
 
 # Uncomment to run locally
