@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='./templates')
 
 @app.route('/')
 def hello():
@@ -17,6 +17,9 @@ def projects():
 @app.route('/contactme')
 def contactme():
     return render_template('contactme.html')
+
+def handler(environ, start_response):
+    return app(environ, start_response)
 
 if __name__ == '__main__':
     app.run(debug=True)
