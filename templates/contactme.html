@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Raj</title>
+    <link rel="icon" href="https://github.com/adityaraj079/Images/blob/main/web_logo.png?raw=true" loading="eager" image="/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        ::selection {
+            background: #b3d4fc;
+            text-shadow: none;
+        }
+        h1 {
+            color: #127315 !important;
+        }
+    </style>
+    <script>
+        function createGitHubButton(link) {
+            return `
+                <a href="${link}" target="_blank" rel="noopener noreferrer"
+                class="flex items-center text-teal-900 hover:text-white transition-colors duration-300">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="w-5 h-5 mr-2">
+                    <path fill-rule="evenodd"
+                    d="M12 0C5.37 0 0 5.373 0 12a12.01 12.01 0 008.21 11.385c.6.11.82-.26.82-.577v-2.14c-3.34.726-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.248 1.84 1.248 1.07 1.832 2.807 1.303 3.492.996.107-.776.42-1.303.763-1.602-2.665-.307-5.467-1.335-5.467-5.933 0-1.31.468-2.38 1.235-3.22-.124-.305-.535-1.533.117-3.194 0 0 1.008-.322 3.3 1.23a11.478 11.478 0 013.004-.404c1.02.005 2.047.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.653 1.661.243 2.89.12 3.194.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.624-5.48 5.92.43.372.823 1.103.823 2.222v3.293c0 .32.218.694.825.576A12.01 12.01 0 0024 12c0-6.627-5.373-12-12-12z"
+                    clip-rule="evenodd"/>
+                </svg>
+                <span>View Code</span>
+                </a>
+            `;
+        }
+    
+        function insertGitHubButton(containerId, link) {
+          document.getElementById(containerId).innerHTML = createGitHubButton(link);
+        }
+
+        function createLiveDemoButton(link) {
+        return `
+            <a href="${link}" target="_blank" rel="noopener noreferrer"
+            class="flex items-center text-zinc-950 hover:text-white transition-colors duration-300">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                fill="currentColor" class="w-5 h-5 mr-2">
+                <path d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"></path>
+            </svg>
+            <span>Live Demo</span>
+            </a>
+        `;
+        }
+
+        function insertLiveDemoButton(containerId, link) {
+        document.getElementById(containerId).innerHTML = createLiveDemoButton(link);
+        }
+      </script>
+</head>
+<body class="bg-gray-100 font-sans text-base leading-relaxed max-w-[900px] mx-auto p-5 overflow-x-auto">
+    <div class="font-nunito">
+        <div id="introduction-wrapper" class="flex flex-col md:flex-row justify-evenly items-center w-full p-5">
+            <h1 class="text-3xl font-bold p-2">Aditya Raj</h1>
+            <img id="main-profile-pic" src="https://github.com/adityaraj079/Images/blob/main/web_logo.png?raw=true" 
+            loading="eager" alt="Aditya Raj" class="p-1.5 rounded-full w-24 h-24 md:w-40 md:h-40 brightness-100">
+            <div id="bio" class="text-center p-2">
+              <p>
+                📧 <a href="mailto:rajaditya079@gmail.com" class="text-inherit hover:text-[#127315] hover:underline">rajaditya079@gmail.com</a>
+              </p>
+
+              <p>📍 New Delhi, India </p>
+
+              <a href="https://www.gmu.edu/" class="text-inherit hover:text-[#127315] hover:underline">George Mason University</a>
+            
+              <div class="flex justify-center pt-1.5">
+                <a href="https://drive.google.com/file/d/1m7YlMVSsDDKL1iv9S2gf0-C4miKM_qAj/view?usp=drive_link" 
+                   target="_blank" 
+                   class="flex items-center text-[#127315] border border-[#127315] hover:bg-[#e6f2e6] font-bold py-1.5 px-8 rounded transition duration-300 ease-in-out text-base">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="mr-2" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z"></path>
+                  </svg>
+                  Resume
+                </a>
+              </div>
+
+            </div>
+            
+        </div>
+
+        <div id="menu" class="w-full border-t border-b border-gray-400 mb-8 py-2">
+            <nav class="flex w-full justify-evenly flex-wrap">
+                <a href="/" class="rounded-full px-2 py-1 text-gray-700 hover:bg-[#e6f2e6] hover:text-gray-900">
+                    Home
+                </a>
+                <a href="/publications" class="rounded-full px-2 py-1 text-gray-700 hover:bg-[#e6f2e6] hover:text-gray-900">
+                    Publication
+                </a>
+                <a href="/projects" class="rounded-full px-2 py-1 text-gray-700 hover:bg-[#e6f2e6] hover:text-gray-900">
+                    Projects
+                </a>
+                <a href="/contactme" class="rounded-full px-2 py-1 text-[#127315] bg-gray-100 hover:bg-[#e6f2e6] hover:text-gray-900">
+                    Contact me
+                </a>
+            </nav>
+        </div>
+
+        <!-- Start main content here -->
+        
+        <div class="text-center space-y-4">
+            <p class="text-lg font-semibold">Let's connect!</p>
+            
+            <div class="flex justify-center gap-6 text-[#127315] flex-wrap">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/adityaraj079/" target="_blank" class="flex items-center hover:bg-[#e6f2e6] px-4 py-2 rounded-full transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 5 3.89 6 2.5 6S0 5 0 3.5 1.11 1 2.5 1 4.98 2 4.98 3.5zM0 8.5h5V24H0zM8 8.5h4.6v2.2h.1c.6-1.1 2.1-2.2 4.3-2.2 4.6 0 5.4 3 5.4 6.9V24h-5V15.6c0-2-.04-4.5-2.7-4.5-2.7 0-3.1 2.1-3.1 4.3V24H8z"/></svg>
+                    LinkedIn
+                </a>
+        
+                <!-- GitHub -->
+                <a href="https://github.com/adityaraj079" target="_blank" class="flex items-center hover:bg-[#e6f2e6] px-4 py-2 rounded-full transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.373 0 12a12 12 0 008.205 11.385c.6.11.82-.26.82-.577v-2.14c-3.34.726-4.042-1.61-4.042-1.61-.546-1.386-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.248 1.84 1.248 1.07 1.832 2.807 1.303 3.492.996.107-.776.42-1.303.763-1.602-2.665-.307-5.467-1.335-5.467-5.933 0-1.31.468-2.38 1.235-3.22-.124-.305-.535-1.533.117-3.194 0 0 1.008-.322 3.3 1.23a11.478 11.478 0 013.004-.404c1.02.005 2.047.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.653 1.661.243 2.89.12 3.194.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.624-5.48 5.92.43.372.823 1.103.823 2.222v3.293c0 .32.218.694.825.576A12.01 12.01 0 0024 12c0-6.627-5.373-12-12-12z"/></svg>
+                    GitHub
+                </a>
+        
+                <!-- Twitter -->
+                <a href="https://x.com/Adityamurdaraj0" target="_blank" class="flex items-center hover:bg-[#e6f2e6] px-4 py-2 rounded-full transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.724-.95.555-2.005.959-3.127 1.184-.896-.956-2.173-1.555-3.591-1.555-2.717 0-4.924 2.205-4.924 4.917 0 .39.045.765.127 1.124-4.09-.205-7.72-2.165-10.148-5.144-.422.722-.666 1.561-.666 2.475 0 1.708.869 3.216 2.188 4.099-.807-.026-1.566-.248-2.229-.616v.062c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.376 4.604 3.416-1.68 1.319-3.809 2.107-6.102 2.107-.39 0-.779-.023-1.17-.067 2.189 1.402 4.768 2.221 7.557 2.221 9.054 0 14-7.496 14-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg>
+                    Twitter
+                </a>
+        
+                <!-- LeetCode -->
+                <a href="https://leetcode.com/u/rajaditya079/" target="_blank" class="flex items-center hover:bg-[#e6f2e6] px-4 py-2 rounded-full transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M8.24 17.64L6.83 19.05 0 12.23 6.82 5.4l1.41 1.41L2.83 12.23l5.41 5.41zm7.52 0l5.41-5.41-5.41-5.41-1.41 1.41 4 4-4 4 1.41 1.41z"/></svg>
+                    LeetCode
+                </a>
+        
+                <!-- Stack Overflow -->
+                <a href="https://stackoverflow.com/users/12971719/aditya-raj" target="_blank" class="flex items-center hover:bg-[#e6f2e6] px-4 py-2 rounded-full transition">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.473 20.13V15.89h1.714v6.344H4.813V15.89h1.714v4.24h10.946zM7.95 15.468l.353-1.687 9.446 1.974-.354 1.688-9.445-1.975zm1.37-4.276l.712-1.607 8.788 3.884-.711 1.607-8.79-3.884zm2.008-4.116l1.046-1.427 7.83 5.75-1.046 1.427-7.83-5.75zm3.165-3.497l6.535 7.01-1.285 1.199-6.535-7.01 1.285-1.199zM7.12 17.538h9.02v1.684h-9.02v-1.684z"/></svg>
+                    Stack Overflow
+                </a>
+            </div>
+
+
+            <!-- Contact form -->
+            <div class="mt-10 rounded-lg shadow-md p-6 text-left">
+                <!-- Toggle Button -->
+                <div class="flex justify-between items-center cursor-pointer" onclick="toggleForm()">
+                  <h2 class="text-xl font-bold text-[#127315]">Send me a message</h2>
+                  <!-- Down arrow icon -->
+                  <svg id="arrow-icon" class="w-6 h-6 text-[#127315] transition-transform duration-300 ease-in-out" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              
+                <!-- Contact Form with transition -->
+                <div id="contact-form" class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out mt-2">
+                    <form action="https://formspree.io/f/xgvajekj" method="POST" class="space-y-4">
+                        <div class="p-1">
+                          <label class="block text-sm font-medium text-gray-700">Your Name</label>
+                          <input type="text" name="name" placeholder="John Doe" required
+                            class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#127315]">
+                        </div>
+                      
+                        <div class="p-1">
+                            <label class="block text-sm font-medium text-gray-700">Your Email</label>
+                            <input type="email" name="email" id="email" placeholder="you@example.com" required
+                              class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#127315]">
+                            <p id="email-error" class="text-red-600 text-sm hidden">Please enter a valid email address.</p>
+                        </div>
+                      
+                        <div class="p-1">
+                          <label class="block text-sm font-medium text-gray-700">Subject</label>
+                          <input type="text" name="subject" placeholder="Subject..." required
+                            class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#127315] ">
+                        </div>
+                      
+                        <div class="p-1">
+                          <label class="block text-sm font-medium text-gray-700">Message</label>
+                          <textarea name="message" rows="5" placeholder="Write your message..." required
+                            class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-[#127315]"></textarea>
+                        </div>
+                      
+                        <div class="flex justify-end">
+                          <button type="submit"
+                            class="inline-block text-[#127315] border border-[#127315] hover:bg-[#e6f2e6] font-bold py-2 px-4 rounded transition duration-300 ease-in-out">
+                            Send
+                          </button>
+                        </div>
+                      </form>
+                      
+                </div>
+                <p id="form-status" class="text-sm mt-2 color: #127315; hidden">Thanks! Your message has been sent.</p>
+              </div>
+
+              <!-- JavaScript -->
+              <script>
+                let isOpen = false;
+              
+                function toggleForm() {
+                  const form = document.getElementById("contact-form");
+                  const arrow = document.getElementById("arrow-icon");
+              
+                  isOpen = !isOpen;
+              
+                  if (isOpen) {
+                    form.classList.remove("max-h-0");
+                    form.classList.add("max-h-[1000px]"); // You can adjust this height
+                  } else {
+                    form.classList.add("max-h-0");
+                    form.classList.remove("max-h-[1000px]");
+                  }
+              
+                  arrow.classList.toggle("rotate-180");
+                }
+
+                const form = document.querySelector("form");
+                const status = document.getElementById("form-status");
+
+                form.addEventListener("submit", async (e) => {
+                        e.preventDefault();
+                        const data = new FormData(form);
+                        const response = await fetch(form.action, {
+                        method: form.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                        });
+
+                        if (response.ok) {
+                        // Show success message
+                        status.classList.remove("hidden");
+                        form.reset();
+                        // Optionally close the form
+                        toggleForm(); // Automatically close the form after submission (if needed)
+                        } else {
+                        // Show an error message if needed (optional)
+                        alert("Oops! There was a problem sending your message.");
+                        }
+                    });
+                
+                const emailInput = document.getElementById("email");
+                const emailError = document.getElementById("email-error");
+
+                // Regular expression for validating email format
+                const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+
+                emailInput.addEventListener("input", () => {
+                    // Check if email matches the regular expression
+                    if (!emailRegex.test(emailInput.value)) {
+                    emailError.classList.remove("hidden"); // Show error message
+                    } else {
+                    emailError.classList.add("hidden"); // Hide error message
+                    }
+                });
+              </script>
+              
+  
+        <!-- End main content here -->
+    </div>
+</body>
+</html>
