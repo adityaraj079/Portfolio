@@ -40,7 +40,7 @@ Personal portfolio website built with **React** (frontend) and **Flask** (backen
 - Uncomment the last 2 lines
 
 2. **Create a virtual environment**
-    ``` python -m venv venv ```
+    ``` python3 -m venv venv ```
 
 3. **Activate vitual environment**
     ``` venv\Scripts\activate ```
