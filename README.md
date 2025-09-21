@@ -45,6 +45,9 @@ Personal portfolio website built with **React** (frontend) and **Flask** (backen
 3. **Activate vitual environment**
     ``` venv\Scripts\activate ```
 
+3. **MAC - Activate vitual environment**
+    ``` source ./venv/bin/activate ```
+
 4. **Install dependencies** 
     ``` pip install -r requirements.txt ```
 
