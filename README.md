@@ -7,7 +7,6 @@ Personal portfolio website built with **React** (frontend) and **Flask** (backen
 ## 🌐 Live Demo
 
 👉 [Visit Portfolio](https://www.whoisaditya.me/)  
-*(Replace with your actual deployed URL)*
 
 ---
 
