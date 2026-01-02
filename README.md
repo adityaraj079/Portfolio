@@ -66,9 +66,9 @@ Feel free to reach out via the contact form on the site!
 
 ## 📬 Contact
 
-- 📧 Email: [youremail@example.com](mailto:youremail@example.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🧑‍💻 GitHub: [github.com/yourusername](https://github.com/yourusername)
+- 📧 Email: [youremail@example.com](mailto:rajaditya079@gmail.com)
+- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/adityaraj079/)
+- 🧑‍💻 GitHub: [github.com/yourusername](https://github.com/adityaraj079)
 
 ---
 
