@@ -66,9 +66,9 @@ Feel free to reach out via the contact form on the site!
 
 ## 📬 Contact
 
-- 📧 Email: [youremail@example.com](mailto:rajaditya079@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/adityaraj079/)
-- 🧑‍💻 GitHub: [github.com/yourusername](https://github.com/adityaraj079)
+- 📧 Email: [Email](mailto:rajaditya079@gmail.com)
+- 💼 LinkedIn: [Linkedin](https://www.linkedin.com/in/adityaraj079/)
+- 🧑‍💻 GitHub: [Github](https://github.com/adityaraj079)
 
 ---
 
@@ -77,8 +77,3 @@ Feel free to reach out via the contact form on the site!
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 🤝 Contributions
-
-Contributions are welcome!  
-If you’d like to suggest improvements or add features, feel free to open a pull request.
